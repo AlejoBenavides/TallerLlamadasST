@@ -55,22 +55,6 @@
                 <audio class="llamada llamada10" src="img/llamada10.mp3" controls></audio>
             </div>
         </div>
-        <div class="iframe-titan">
-            <iframe id="iframe" class="titan" src="http://200.122.252.187/AmericasBPS_Testing/" frameborder="0"></iframe>
-        </div>
     </div>
-    
-    <script language="JavaScript">
-
-        var i;
-        
-        //thanks to html - Count of all IFRAME Tags in a page? - Stack Overflow
-        for(i=0; i<document.getElementsByTagName("iframe").length; i++)
-        if(document.getElementsByTagName("iframe").src != "" && document.getElementsByTagName("iframe").src != "undefined")
-        if(location.href.toLowerCase().indexOf("https://") >= 0)
-        document.getElementsByTagName("iframe").src = document.getElementsByTagName("iframe").src.replace("http://", "https://");
-        
-        </script>
-
 </body>
 </html>
