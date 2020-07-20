@@ -4,13 +4,14 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
 
 .cabecera{
     color: #111;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    font-family: Caveat;
     margin-bottom: 20px;
     position: fixed;
     width: 100%;
@@ -25,15 +26,63 @@ body{
 
 .contenedor-llamadas{
     color: #FFF;
-    background-color: rgba(200, 200, 200, 0.5);
+    background-color: rgba(200, 200, 200, 0.8);
     text-align: center;
-    font-family: Caveat;
     padding: 20px;
     border-radius: 20px;
     width: 90%;
+    min-width: 380px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 30px;
+}
+
+.mensaje{
+    color: #222;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 10px 5px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 2px #222;
+    margin: 0px;
+}
+
+.mensaje:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.text-mensaje{
+    margin: 10px;
+}
+
+
+.tipologia-llamada{
+    color: #222;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 15px;
+    border: #FFF 1px solid;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.tipologia-llamada:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #EEE;
+}
+
+.img-titan{
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+.img-titan:hover{
+    background-color: rgba(20, 20, 20, 0.1);
+    border-radius: 10px;
 }
 
 .text-llamada{
